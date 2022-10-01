@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+hr {
+    width: 450px;
+    height: 2px;
+    background-color: black;
+}
+
+.contayner{
+    box-shadow: 1px 2px 15px -1px #004684;
+    border-radius: 11%;
+    width: 500px;
+    height: 600px;
+    margin:30px auto;
+
+    background: linear-gradient(#004684,#81c4ff);
+
+}
+#board {
+    width: 450px;
+    height: 450px;
+    display: flex; /* katakni bir teks qilberadi  */
+    flex-wrap: wrap; /* bu pastki qismni togirlavoti */
+    
+
+
+    border-radius: 5px;
+    box-shadow: 1px 1px 11px -1px black; /*  soya qismi */
+    background: linear-gradient(#fdf0c8,#f9c93e); /*  rang berilishi*/
+    margin: 0 auto;
+  }  
+
+.tile {
+    width: 148px;
+    height: 148px;
+
+    /* Text */
+    font-size: 150px;
+    display: flex;            /*  */
+    justify-content: center;   /* sdfsdfsdf */
+    align-items: center;    
+}
+
+.winner {
+    background-color: #ff632d;
+    color: rgb(10, 204, 26);
+}
+
+.horizontal-line {
+    border-bottom: 3px solid black;
+}
+
+.vertical-line {
+    border-right: 3px solid rgb(20, 20, 19);
+}
